@@ -5,7 +5,7 @@ size(500,500, P3D);
 void draw() {
   background(0);
   translate(width/2, height/2);
-   translate(0, -100);
+  translate(0, -100);
   rotateY(frameCount/10);
   stroke(255);
   strokeWeight(4);
