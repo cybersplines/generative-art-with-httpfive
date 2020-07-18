@@ -10,4 +10,4 @@ def draw():
     for N in range (100):
         N+=frameCount//100+1
     for i in range(N):
-            textSize(i%30), smooth(8), rotateZ(10), text('httpfive'[:frameCount/100+1 ],i+50,0, i =0)
+        textSize(i%30), smooth(8), rotateZ(10), text('httpfive'[:frameCount/100+1 ],i+50,0, i =0)
