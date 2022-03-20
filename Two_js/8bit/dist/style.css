@@ -1,0 +1,13 @@
+body {
+  background-color: black;
+}
+
+#bit {
+  width: 1000px;
+  height: 1000px;
+  position: fixed;
+  /* hight and width of the drawing area */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
